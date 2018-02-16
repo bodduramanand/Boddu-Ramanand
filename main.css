@@ -1,0 +1,188 @@
+html, body, header, div, ul, li, head, h1, h2, h3, h4, h5, h6, p {
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+/* Fonts 
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Kavivanar', cursive;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Nanum Gothic Coding', monospace;
+font-family: 'Crimson Text', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Bree Serif', serif;
+font-family: 'Source Serif Pro', serif;
+font-family: 'Heebo', sans-serif;
+font-family: 'Istok Web', sans-serif;
+
+*/
+
+/* Main head */
+
+img.logo {
+	border-radius: 50%;
+	margin-left: 30px;
+}
+
+.checked {
+    color: orange;
+}
+
+h3.mainname {
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Heebo', sans-serif;
+	font-size: 18px;
+	margin-top: -90px;
+
+}
+
+div.header {
+	display: inline-flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+
+    padding-top: 10px;
+    border: 1px hidden;
+    width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p.myname {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	padding-left: 20px;
+	margin-top: -30px;
+}
+
+
+
+h3.sidehead {
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Heebo', sans-serif;
+	font-size: 18px;
+}
+
+/* About */
+
+div.aboutme {
+	background-color: #FFFFF0;
+	padding: 20px;
+}
+
+ul.about {
+	display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+ul.about li {
+	padding-left: 10px;
+}
+
+p.aboutme1 {
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+	color: #BD4C0D;
+}
+
+p.aboutme2 {
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+	color: #0D42BD;
+}
+
+p.aboutme3 {
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+	color: #E945D8;
+}
+
+/* Study */
+
+div.study {
+	padding: 20px;
+}
+
+ul.mystudy {
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    background-color: #FFFFF0;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 5px;
+}
+
+li.newclg {
+	padding-top: 15px;
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+li.newclg:last-child {
+	padding-bottom: 15px;
+}
+
+/* Skills */
+
+div.skills {
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+div.skills h3 {
+	padding-bottom: 10px;
+}
+
+div.skills p {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	padding: 2px;
+}
+
+div.skills span {
+	margin-left: 4px;
+}
+
+/* Social media */
+
+div.socialmedia {
+	background-color: #FFFFF0;
+	padding: 20px;
+}
+
+div.socialmedia ul {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+div.socialmedia li {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
