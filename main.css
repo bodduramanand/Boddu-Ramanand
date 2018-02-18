@@ -150,6 +150,7 @@ li.newclg:last-child {
 div.skills {
 	padding-bottom: 20px;
 	text-align: center;
+
 }
 
 div.skills h3 {
@@ -168,18 +169,18 @@ div.skills span {
 
 /* Social media */
 
-div.socialmedia {
+footer.socialmedia {
 	background-color: #FFFFF0;
 	padding: 20px;
 }
 
-div.socialmedia ul {
+footer.socialmedia ul {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
 }
 
-div.socialmedia li {
+footer.socialmedia li {
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -237,4 +238,27 @@ ul.buttons {
 	display: flex;
     justify-content: center;
     flex-direction: row;
+}
+
+/* Login form & Register form */
+
+div.formfields {
+	width: 100%;
+	text-align: center;
+	margin-top: 6%;
+	margin-bottom: 8%;
+}
+
+input.inputfield {
+	padding: 10px 50px 10px 50px;
+	text-align: left;
+	border-radius: 2px;
+}
+
+.btn1, .btn2 {
+	padding: 5px 35px 5px 35px;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
 }
