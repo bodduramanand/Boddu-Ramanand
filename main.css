@@ -11,17 +11,8 @@ html, body, header, div, ul, li, head, h1, h2, h3, h4, h5, h6, p {
 
 font-family: 'Roboto', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
-font-family: 'Kavivanar', cursive;
-font-family: 'PT Sans', sans-serif;
-font-family: 'Merriweather', serif;
-font-family: 'Ubuntu', sans-serif;
 font-family: 'Nanum Gothic Coding', monospace;
-font-family: 'Crimson Text', serif;
-font-family: 'Lobster', cursive;
-font-family: 'Bree Serif', serif;
-font-family: 'Source Serif Pro', serif;
 font-family: 'Heebo', sans-serif;
-font-family: 'Istok Web', sans-serif;
 
 */
 
@@ -264,4 +255,6 @@ input.inputfield {
     border-radius: 5px;
     font-size: 18px;
     margin: 1px;
+    color: #FFFFF0;
+    background-color: #707070;
 }
